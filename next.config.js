@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
-    logging: "verbose",
+    logging: {
+      level: 'verbose',
+    },
   }
 }
 
