@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "curl http://localhost:3000/api/configRuntime && curl http://localhost:3000/api/runtime"
   },
   "dependencies": {
     "@types/node": "20.6.2",
